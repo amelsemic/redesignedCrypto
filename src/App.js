@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Titles from "./components/Titles";
 import PaginationComponent from "./components/PaginationComponent";
 import Header from "./components/Header";
-let sortingAsc = true;
+let sortingAsc = false;
 let blurryBackground = true;
 const Coins = () => {
   const [fetchedCoins, setFetchedCoins] = useState([]);
@@ -40,7 +40,6 @@ const Coins = () => {
     };
     fetching();
   }, []);
-
 
   const sortByValueHandler = () => {
     let sortedCoins = fetchedCoins.sort((a, b) => {
@@ -95,11 +94,11 @@ const Coins = () => {
       return coin.id.includes(searched.toLowerCase());
     });
     makeChunks(searchedCoins);
-  }; 
+  };
 
-  const selectPageHandler = (newPage) =>{
-    setCurPage(newPage)
-  }
+  const selectPageHandler = (newPage) => {
+    setCurPage(newPage);
+  };
   return (
     <div className={classes.wrapper}>
       <Header onInputChange={inputChangeHandler} />
