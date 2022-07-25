@@ -15,7 +15,7 @@
   justify-content: center;
   width: 1487px;
   height: 67px;
-  background-color: #8080801d;
+  background-color: #8ea1bd41;
   border-radius: 8px;
 }
 
@@ -32,23 +32,31 @@
 }
 .divs p{
   font-size: 16px;
-  font-family: "graphikMedium";
+  font-family: "graphikLight";
 }
+
 
 .divs p.decrease {
   color: #FF6C46;
+  font-family: "graphikMedium";
 }
 .divs p.increase {
   color: #98FF7A;
+  font-family: "graphikMedium";
 }
 
 /* pogledati ooovo */
 
 .coin {
-  height: 90%;
+height: 65%;
 width: auto;
 }
 @font-face {
   font-family: 'graphikMedium';
   src: url('../../graphik-font/GraphikMedium.otf');
+}
+
+@font-face {
+  font-family: "graphikLight";
+  src: url("../../graphik-font/GraphikLight.otf");
 }

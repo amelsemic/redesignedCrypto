@@ -1,38 +1,40 @@
 .header {
   width: 1487px;
   display: flex;
-  /* align-items: center; */
-
-  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /*justify-content: space-evenly; */
   width: 1487px;
 }
 
 .header p {
-  font-family: "titilliumBold";
   font-size: 44px;
   color: white;
 }
+.header p span.left {
+  font-family: "titilliumBold";
+}
 
+.header p span.right {
+  font-family: "titilliumLight";
+}
 .header input {
+  font-size: 18px;
   border: none;
   width: 762px;
   height: 67px;
-  /*border: 4px double white; */
   border-radius: 8px;
   background: url("../Icon ionic-ios-search.svg") no-repeat;
   background-position-y: center;
-  background-position-x: 15px;
-  padding-left: 50px;
+  background-position-x: 25px;
+  padding-left: 75px;
   color: white;
-  background-color: #8080801d;
+  background-color: #8ea1bd48;
 }
 ::placeholder {
+  font-size: 18px;
   color: white;
-  font-family: titilliumLight;
+  font-family: graphikLight;
 }
 
 @font-face {
@@ -43,5 +45,10 @@
 @font-face {
   font-family: "titilliumLight";
   src: url("../../titilliumFont/TitilliumWeb-Light.ttf");
+}
+
+@font-face {
+  font-family: "graphikLight";
+  src: url("../../graphik-font/GraphikLight.otf");
 }
 
