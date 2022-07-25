@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import Titles from "./components/Titles";
 import PaginationComponent from "./components/PaginationComponent";
 import Header from "./components/Header";
-let sortingAsc = false;
-let blurryBackground = true;
+let sortingAsc = true;
+let blurryBackground = false;
 const Coins = () => {
   const [fetchedCoins, setFetchedCoins] = useState([]);
   const [cryptoChunks, setCryptoChunks] = useState([]);
