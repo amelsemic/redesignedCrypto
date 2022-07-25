@@ -1,0 +1,34 @@
+.tableTop {
+  display: flex;
+  justify-content: center;
+  width: 1487px;
+}
+.tableTop div.title {
+  /*  margin: 5px 20px */
+  margin-bottom: 15px;
+  width: 297.4px;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.tableTop div.title img {
+  max-height: 50%;
+  max-width: auto; 
+/*   background-color: white; */
+  color: aqua;
+}
+p.symbol {
+  cursor: pointer;
+}
+
+.text {
+  font-size: 18px;
+  font-family: "graphikMedium";
+}
+
+@font-face {
+  font-family: 'graphikMedium';
+  src: url('../../graphik-font/GraphikMedium.otf');
+}

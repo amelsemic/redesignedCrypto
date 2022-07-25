@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 1487px;
+  height: 67px;
+}
+.blurryWrapper {
+  display: flex;
+  justify-content: center;
+  width: 1487px;
+  height: 67px;
+  background-color: #8080801d;
+  border-radius: 8px;
+}
+
+.divs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  width: 297.4px;
+  height: 67px;
+  color: white;
+  max-width: auto;
+  background: transparent;
+}
+.divs p{
+  font-size: 16px;
+  font-family: "graphikMedium";
+}
+
+.divs p.decrease {
+  color: #FF6C46;
+}
+.divs p.increase {
+  color: #98FF7A;
+}
+
+/* pogledati ooovo */
+
+.coin {
+  height: 90%;
+width: auto;
+}
+@font-face {
+  font-family: 'graphikMedium';
+  src: url('../../graphik-font/GraphikMedium.otf');
+}

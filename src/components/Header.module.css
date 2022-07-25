@@ -1,0 +1,47 @@
+.header {
+  width: 1487px;
+  display: flex;
+  /* align-items: center; */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /*justify-content: space-evenly; */
+  width: 1487px;
+}
+
+.header p {
+  font-family: "titilliumBold";
+  font-size: 44px;
+  color: white;
+}
+
+.header input {
+  border: none;
+  width: 762px;
+  height: 67px;
+  /*border: 4px double white; */
+  border-radius: 8px;
+  background: url("../Icon ionic-ios-search.svg") no-repeat;
+  background-position-y: center;
+  background-position-x: 15px;
+  padding-left: 50px;
+  color: white;
+  background-color: #8080801d;
+}
+::placeholder {
+  color: white;
+  font-family: titilliumLight;
+}
+
+@font-face {
+  font-family: "titilliumBold";
+  src: url("../../titilliumFont/TitilliumWeb-Bold.ttf");
+}
+
+@font-face {
+  font-family: "titilliumLight";
+  src: url("../../titilliumFont/TitilliumWeb-Light.ttf");
+}
+
