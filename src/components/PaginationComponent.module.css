@@ -2,6 +2,7 @@
   width: 1487px;
   display: flex;
   justify-content: space-around;
+  font-family: "graphikMedium";
 }
 .pagination span {
 display: flex;
@@ -12,7 +13,7 @@ margin: 5px;
 cursor: pointer;
 align-items: center;
 justify-content: center;
-font-weight: bold;
+/* font-weight: bold; */
 color: white;
 }
 .pagination span.dots {
@@ -32,7 +33,7 @@ color: white;
     justify-content: space-evenly;
     background: linear-gradient(to bottom, #3ab5b0 0%, #3d99be 60%, #56317a 100%);
     border-radius: 10px;
-    font-weight: bolder;
+    /* font-weight: bolder; */
   }
   
   .pagination p {
@@ -41,7 +42,7 @@ color: white;
     text-align: center;
     font-family: Inspiration;
     font-size: 4vh;
-    font-weight: bolder;
+   /*  font-weight: bolder; */
    
   }
   
@@ -52,3 +53,8 @@ color: white;
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
+    @font-face {
+      font-family: 'graphikMedium';
+      src: url('../../graphik-font/GraphikMedium.otf');
+    }
